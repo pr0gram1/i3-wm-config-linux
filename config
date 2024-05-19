@@ -219,7 +219,7 @@ bar {
 }
 
 # Shortcut for Lockscreen
-bindsym $mod+Alt+l exec /home/$USER/.config/scripts/lock
+bindsym $mod+Alt+l exec /home/$USER/.config/i3/lock
 
 # Define names for default workspaces for which we configure key bindings later>
 # We use variables to avoid repeating the names in multiple places.
