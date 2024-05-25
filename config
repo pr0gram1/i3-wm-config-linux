@@ -111,6 +111,7 @@ bindsym $mod+a focus parent
 # On init exec
 exec_always i3-sensible-terminal --hold -e "neofetch"
 exec_always i3-sensible-terminal --hold -e "cava"
+exec_always i3-sensible-terminal --hold -e "btop"
       
 # Define names for default workspaces for which we configure key bindings later on.
 # We use variables to avoid repeating the names in multiple places.
