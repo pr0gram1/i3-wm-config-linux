@@ -20,6 +20,9 @@ sudo apt install xorg lightdm lightdm-gtk-greeter i3-wm i3lock i3status i3blocks
 sudo apt-get -y install nitrogen
 sudo apt-get feh
 
+# Btop for diagnostics
+sudo apt-get install btop
+
 # Installing new theme or icons
 sudo apt install lxappearance
 
