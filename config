@@ -107,13 +107,6 @@ bindsym $mod+a focus parent
 
 # focus the child container
 #bindsym $mod+d focus child
-
-# On init exec
-exec_always i3-sensible-terminal --hold -e "neofetch"
-exec_always i3-sensible-terminal --hold -e "cava"
-exec_always i3-sensible-terminal --hold -e "btop"
-exec_always i3-sensible-terminal --hold -e "tty-clock"
-
       
 # Define names for default workspaces for which we configure key bindings later on.
 # We use variables to avoid repeating the names in multiple places.
@@ -241,4 +234,10 @@ font pango:Ubuntu Regular 14
 #i3 gaps
 gaps inner 5
 gaps outer 5
+
+# On init exec
+exec_always i3-sensible-terminal --hold -e "neofetch"
+exec_always i3-sensible-terminal --hold -e "cava"
+exec_always i3-sensible-terminal --hold -e "btop"
+exec_always i3-sensible-terminal --hold -e "tty-clock"
 
