@@ -107,10 +107,6 @@ bindsym $mod+a focus parent
 
 # focus the child container
 #bindsym $mod+d focus child
-
-# On init exec
-exec_always i3-sensible-terminal --hold -e "neofetch"
-exec_always i3-sensible-terminal --hold -e "cava"
       
 # Define names for default workspaces for which we configure key bindings later on.
 # We use variables to avoid repeating the names in multiple places.
@@ -204,6 +200,7 @@ client.urgent           $u-bgcolor      $u-bgcolor      $text           $u-bgcol
 # finds out, if available)
 
 bar {
+	position top
         status_command i3status -c /home/$USER/.config/i3/i3status/i3status.conf
 	font pango: Droid Sans Mono 11
 	i3bar_command i3bar --transparency
@@ -234,5 +231,13 @@ exec_always picom -f
 # Set Font 
 font pango:Ubuntu Regular 14
 
+#i3 gaps
+gaps inner 5
+gaps outer 5
 
+# On init exec
+exec_always i3-sensible-terminal --hold -e "neofetch"
+exec_always i3-sensible-terminal --hold -e "cava"
+exec_always i3-sensible-terminal --hold -e "btop"
+exec_always i3-sensible-terminal --hold -e "tty-clock"
 
