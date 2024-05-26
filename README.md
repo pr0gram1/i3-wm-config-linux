@@ -3,6 +3,15 @@
 Backup .bashrc file for terminal
 Backup synth shell for terminal
 
+```bash
+sudo apt install fonts-powerline
+git clone --recursive https://github.com/andresgongora/synth-shell.git
+chmod +x synth-shell/setup.sh
+cd synth-shell
+./setup.sh
+
+```
+
 ## Custom i3 Window Manager Config
 
 I3 is a tiling window manager that is inspired from WMII that is primarily targeted to developers. 
