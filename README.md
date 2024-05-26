@@ -1,7 +1,6 @@
 ## Linux config files
 
-Backup .bashrc file for terminal
-Backup synth shell for terminal
+Backup .bashrc file and backup synth shell for terminal
 
 ```bash
 sudo apt install fonts-powerline
