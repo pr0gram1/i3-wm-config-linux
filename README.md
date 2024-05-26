@@ -1,3 +1,8 @@
+## Linux config files
+
+Backup .bashrc file for terminal
+Backup synth shell for terminal
+
 ## Custom i3 Window Manager Config
 
 I3 is a tiling window manager that is inspired from WMII that is primarily targeted to developers. 
